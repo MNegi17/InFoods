@@ -1,0 +1,49 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-primary {
+  background-color: #adb5bd;
+}
+.bg-success{
+  background-color: rgb(255, 157, 127);
+}
+.navbar-brand{
+  padding: 10px;
+  font-size: 40px
+}
+.card{
+  margin:30px;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+}
+.content{
+  display: flex;
+}
+.caraousel{
+  display: flex;
+  justify-content: center;
+}
+#signup{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signform , #loginform{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 3%;
+}
+#login{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
