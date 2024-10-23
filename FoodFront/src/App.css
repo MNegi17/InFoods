@@ -47,3 +47,12 @@ html,body{
   justify-content: center;
   align-items: center;
 }
+.carousel-item img {
+  object-fit: fill !important;
+}
+
+.carousel-item img {
+  max-height: 70vh; /* Adjust height as needed */
+  object-fit: contain; /* Ensures the entire image is shown */
+}
+

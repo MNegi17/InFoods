@@ -1,4 +1,7 @@
 import React from 'react'
+import burger from './burger.jpg';
+import pizza from './pizza.jpg';
+import cake from './cake.jpg';
 
 export default function Caraousel() {
   return (
@@ -17,13 +20,13 @@ export default function Caraousel() {
     </form>
       </div>
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/900×700/?burger" className="d-block w-100 h-100" alt="burger"/>
+      <img src={burger} className="d-block w-100 h-100" alt="burger"/>
     </div>
     <div className="carousel-item">
-      <img src="https://source.unsplash.com/random/900×700/?pizza" className="d-block w-100 h-100" alt="pizza"/>
+      <img src={pizza} className="d-block w-100 h-100" alt="pizza"/>
     </div>
     <div className="carousel-item">
-      <img src="https://source.unsplash.com/random/900×700/?cake" className="d-block w-100 h-100" alt="cake"/>
+      <img src={cake} className="d-block w-100 h-100" alt="cake"/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
